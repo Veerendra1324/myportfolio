@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Veerendra C | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+ 
+
+  <div class="portfolio-top">
+    <h2 class="portfolio-title">Interactive Digital Portfolio</h2>
+  </div>
+
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="theme-toggle" aria-label="Toggle dark mode">&#9789;</button></li>
+    </ul>
+    <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+  </nav>
+
+  <section class="parallax">
+    <div class="hero-content">
+      <div style="font-size:80px;">👨‍💻</div>
+      <h1><span class="big-name">VEERENDRA C</span></h1>
+      <h3 style="color:#fff; font-weight:400; margin-bottom:30px;">CSE (AIML) Student | Web & ML Enthusiast</h3>
+      <a href="C Veerendra.pdf" download class="btn">Resume</a>
+    </div>
+  </section>
+
+  <section id="about" class="shadow-box">
+    <h2>About Me</h2>
+    <div class="about-grid">
+      <div class="about-avatar">👨‍💻</div>
+      <div>
+        <p>
+          I’m Veerendra C, a passionate Computer Science (AIML) student at Mohan Babu University. I specialize in
+          AI, Machine Learning, and Web Development. I enjoy solving problems, building innovative projects, and
+          designing user-friendly web applications. My goal is to integrate AI solutions with real-world use cases
+          for a better technological future.
+        </p>
+        <div class="skills">
+          <h3>Skills</h3>
+          <div class="skills-grid">
+            <img src="java.jpg" alt="Java" class="skill-icon" />
+            <img src="html.jpg" alt="HTML" class="skill-icon" />
+            <img src="css.jpg" alt="CSS" class="skill-icon" />
+            <img src="javascript.jpg" alt="JavaScript" class="skill-icon" />
+            <img src="python.jpg" alt="Python" class="skill-icon" />
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="shadow-box">
+    <h2>Education</h2>
+    <div class="education-grid">
+      <div class="edu-card">
+        <h4>Bachelor of Technology in Computer Science (AIML)</h4>
+        <span>2022–2026</span>
+        <p>Mohan Babu University, Tirupati</p>
+        <span class="edu-percentage">CGPA: 8.77</span>
+      </div>
+      <div class="edu-card">
+        <h4>Intermediate - MPC</h4>
+        <span>2020–2022</span>
+        <p>Sri Vivekananda Junior College, Chittoor</p>
+        <span class="edu-percentage">82.4%</span>
+      </div>
+      <div class="edu-card">
+        <h4>State Board of Secondary Education</h4>
+        <span>2019–2020</span>
+        <p>Camford English Medium School, Chittoor</p>
+        <span class="edu-percentage">93%</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="shadow-box">
+    <h2>Featured Projects</h2>
+    <div class="projects-list">
+      <div class="project-card">
+        <img src="project1.jpg" alt="Portfolio Website" />
+        <div class="project-info">
+          <h3>Interactive Digital Portfolio Website</h3>
+          <p>Developed a responsive portfolio showcasing skills, projects, and certifications. Implemented animations and modern UI.</p>
+          <a href="https://github.com/Veerendra1324/Portfolio_Veerendra" target="_blank" rel="noopener">Source Code</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="project2.jpg" alt="Student Grade Tracker" />
+        <div class="project-info">
+          <h3>Java GUI-Based Application: Student Grade Tracker</h3>
+          <p>Java-based application managing student grades, computing averages, and generating reports efficiently.</p>
+          <a href="#" target="_blank" rel="noopener">Source Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="shadow-box">
+    <h2>Certifications</h2>
+    <div class="cert-list-vertical">
+      <a href="#" class="cert-card"><img src="ai.jpg" alt="AI" /><span>Career Essentials in Generative AI - Microsoft & LinkedIn</span></a>
+      <a href="#" class="cert-card"><img src="python.jpg" alt="Python" /><span>The Complete Python Bootcamp - Udemy</span></a>
+      <a href="#" class="cert-card"><img src="deloitte.jpg" alt="Deloitte" /><span>Technology Job Simulation - Deloitte Australia</span></a>
+      <a href="#" class="cert-card"><img src="accenture.jpg" alt="Accenture" /><span>Software Engineering Job Simulation - Accenture Nordics</span></a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <p class="contact-intro">Have a project idea or want to collaborate? I'd love to hear from you!</p>
+    <div class="contact-cards">
+      <a href="mailto:veerendra.king4444@gmail.com" target="_blank" class="contact-card"><img src="gmail.jpg" alt="Gmail"/><span>Gmail</span></a>
+      <a href="https://www.linkedin.com/in/veerendra-reddy-578049309" target="_blank" class="contact-card"><img src="linkedin.jpg" alt="LinkedIn"/><span>LinkedIn</span></a>
+      <a href="https://github.com/Veerendra1324" target="_blank" class="contact-card"><img src="git.jpg" alt="GitHub"/><span>GitHub</span></a>
+      <a href="https://leetcode.com/u/veerendra_2025/" target="_blank" class="contact-card"><img src="leetcode.jpg" alt="LeetCode"/><span>LeetCode</span></a>
+    </div>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+      <div class="form-status"></div>
+    </form>
+  </section>
+
+  <button id="scroll-top" title="Go to top">↑</button>
+
+  <footer>
+    <p>© 2025 Veerendra C. All rights reserved.</p>
+    <p class="design-credit">Designed & Developed by <strong>Veerendra C</strong></p>
+  </footer>
+  <div class="cursor"></div>
+</body>
+</html>
